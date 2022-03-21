@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+/* HEADER SECTION */
+header{
+    background-image: url("https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1178&q=80 ");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 80vh;
+    position: relative;
+}
+.header-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    height: 80vh;
+    width: 100vw;
+    }
+    .header-content-wrapper{
+        position: relative;
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 4rem;
+    }
+
+
+    /* Logo */
+    .logo{
+        font-size: 30px;
+        font-weight: bold;
+        color: #f9320a;
+    }
+  .nav-link{
+      color: white;
+      font-size: 20px;
+      text-decoration:none ;
+      transition: 0.5s;
+      padding: 10px;
+      margin: 10px;
+  }
+  .nav-link.active{
+    color: #f9320a;
+  }
+  
+  .hero-wrapper{
+      position: relative;
+       z-index: 1; 
+      display: flex;
+      flex-direction:column ;
+      align-items: center;
+      margin-top: 70px;
+
+  }
+
+  /* PROFILE IMAGE */
+.profile-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.full-name{
+    color: white;
+    font-size: 35px;
+    text-transform:uppercase ;
+    margin: 10px 0;
+}
+.brief{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* ICONS */
+.hero-social-wrapper i{
+    height: 30px;
+    width: 30px;
+    color: white;
+    font-size: 30px;
+    /* border: 1px solid white; */
+    /* border-radius: 50%; */
+    padding: 4px;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.btn{
+    background-color: #f9320a;
+    color:white;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 14px;
+    border-radius: 26px;
+    border: none;
+    margin: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.btn:hover{
+    opacity: 0.8;
+}
+  
+.download-btn{
+    background-color: white;
+    color: #f9320a;
+}
+
+.download-btn:hover{
+    opacity: 0.8;
+    background-color: #f9320a;
+    color: white;
+}
+
+
+/* MAIN BODY SECTION  */
+main{
+    margin-top: 90px;
+}
+
+.section{
+    padding: 40px;
+}
+
+
+
+.section h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #f9320a;
+    margin-bottom: 10px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+.about-me{
+    width: 70%;
+    margin: 0 auto;
+}
+.about-brief{
+    text-align: center;
+    margin-top: 20px;
+    line-height: 2;
+}
+
+.place-of-work-section{
+     margin:40px 0; 
+    background-color: #f9320a;
+    color: white;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.place-of-work-section h2{
+    color: white;
+   
+}
+
+.place-of-work-wrapper{
+    text-align: center;
+    margin: 40px;
+}
+
+.place-of-work-pill{
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    margin: 4px;
+    font-size: 14px;
+    border-radius: 26px;
+    transition: 1.5;
+
+}
+
+
+/* PROJECT SECTION */
+
+ .project-card-wrapper{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     gap: 100px;
+     margin: 2rem;
+     
+ }
+
+ .project-card{
+     padding: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     transition: 0.3s;
+     border-radius: 5px;
+ }
+
+
+ .project-card img{
+ width:100%;
+ height: 200px;
+ }
+
+ .card-content{
+     width: 300px;
+     padding: 2px 16px;
+ }
+
+.project-title{
+    color: #f9320a;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.project-brief{
+    font-size: 14px;
+}
+.project-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.project-links svg{
+    width:20px;
+    height: 20px;
+    fill: #f9320a;
+}
+
+/* STACK SECTION */
+.stack-group{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+/* chrome */
+.stack-progress::-webkit-progress-bar{
+    background-color: rgb(236, 227, 227);
+    border-radius: 100px;
+}
+.stack-progress::-webkit-progress-value{
+    background-color: #f9320a;
+    border-radius: 100px;
+}
+/* mozila */
+
+.stack-progress::-moz-progress-bar{
+    background-color: white;
+    border-radius: 100px;
+}
+/* IEOI */
+.stack-progress{
+    color: hsl(10, 95%, 51%);
+    border-radius: 100px;
+}
+
+.stack-progress-wrapper label{
+    display: block;
+}
+
+/* SERVICE SECTION */
+.service-section{
+    margin: 40px 0;
+    min-height: 300px;
+    background-color: #f9320a;
+}
+
+.service-section h2{
+    color:white;
+    margin-bottom: 40px;
+}
+.service-card-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px ;
+}
+.service-card{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-card:hover{
+    box-shadow: 0 8px rgba(255, 255, 255, 0.4);
+    background-color: white;
+}
+
+.service-card svg{
+    width: 30px;
+    height: 30px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.service-card content{
+    text-align: center;
+    padding:2px 16px ;
+    width: 300px;
+}
+
+.service-title{
+    color: #f9320a;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.service-brief{
+    font-size:14px ;
+    color: #000;
+}
+
+
+/* WORK WITH ME SECTION */
+
+.form-section form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* #subject{
+    display: block;
+}
+textarea{
+    height: 300px;
+    width: 250px;
+}
+#message{
+    display: block;
+} */
+
+.form-group label{
+    display: block;
+    margin-bottom: 10px;
+}
+.form-group input{
+    border: 1px solid red;
+    border-radius:5px;
+    padding: 10px;
+    width: 400px;
+    margin-bottom:10px ;
+}
+
+.form-group textarea{
+    border: 1px solid red;
+    border-radius:5px;
+    padding: 10px;
+    width: 400px;
+    height: 350px;
+    margin-bottom:10px ;
+    resize: none;
+}
+/* .form-group button{
+    background-color: #f9320a;
+    color: white;
+    padding: 10px 14px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 26px;
+} */
+
+
+/* SOCIAL MEDIA */
+.social-account-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.social-account-wrapper svg{
+    width: 30px;
+    height: 30px;
+    fill: #f9320a;
+}
+
+.social-account-wrapper svg:hover{
+    fill: #000;
+    cursor: pointer;
+    position: relative;
+    bottom: 10px;
+}
+
+
+
+ 
