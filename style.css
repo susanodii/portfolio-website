@@ -414,15 +414,26 @@ textarea{
 }
 
 
-@media  screen and (min-width:467px) and (max-width:767px){
+@media  screen and (min-width:365px) and (max-width:665px){
     
 header{
     height: 100vh;
 }
 .header-content-wrapper{
     
-        flex-direction: row;
+        flex-direction: column;
         padding: 1rem;
+        
+    
+}
+.nav-links-wrapper .nav-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 5px solid red; */
+    height: 20px;
+    flex-wrap: wrap; 
+    width: 100vw;
     
 }
     .logo{
@@ -467,25 +478,47 @@ header{
 .stack-group{
     flex-direction: column;
 }
+.form-group input{
+    width: 200px;
+}
 
+.form-group textarea{
+    width: 200px;
+    height: 250px;
+}
 }
  
-@media screen and (min-width: 768px)and(max-width:1023px){
+@media screen and (min-width:666px)and(max-width:1003px){
 
     header{
         height: 100vh;
     }
     .header-content-wrapper{
+    
+        flex-direction: row;
+        padding: 1rem 2rem;
         
-            flex-direction: row;
-            padding: 1rem;
-        
-    }
+    
+}
+ .nav-links-wrapper .nav-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 5px solid red; */
+     height: 20px;
+    flex-wrap: wrap; 
+    width: 100vw;
+    
+}  
+
+
         .logo{
-            font-size: 15px;
+            font-size: 20px;
+            margin-left: 20px;
+            border: 5px solid red;
         }
         .nav-link{
-            font-size: 15px;
+            font-size: 20px;
         }
         
         .hero-wrapper{
@@ -521,8 +554,13 @@ header{
         
     }
     .stack-group{
+        display: flex;
         flex-direction: column;
+        /* border: 5px solid red; */
     }
-    
+  .place-of-work-wrapper{
+      display: flex;
+      flex-direction: column;
+  }  
 
 }
