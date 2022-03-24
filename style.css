@@ -349,16 +349,7 @@ main{
 }
 
 
-/* #subject{
-    display: block;
-}
-textarea{
-    height: 300px;
-    width: 250px;
-}
-#message{
-    display: block;
-} */
+
 
 .form-group label{
     display: block;
@@ -414,7 +405,83 @@ textarea{
 }
 
 
-@media  screen and (min-width:365px) and (max-width:665px){
+
+@media  screen and (max-width:479px){
+    header{
+        height: 100vh;
+    }
+    .header-content-wrapper{
+        
+            flex-direction: column;
+            padding: 1rem;
+            
+        
+    }
+    .nav-links-wrapper .nav-link{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* border: 5px solid red; */
+        height: 20px;
+        flex-wrap: wrap; 
+        width: 100vw;
+        
+    }
+        .logo{
+            font-size: 15px;
+        }
+        .nav-link{
+            font-size: 15px;
+        }
+        
+        .hero-wrapper{
+            
+                flex-direction: column;
+        margin-top: 200px;
+            
+        }
+        .profile-image{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-top: -60px;
+        }
+        
+        .full-name{
+            font-size: 20px;
+            margin: 5px 0;
+        }
+    
+        .brief{
+            font-size: 20px;
+        }
+    
+        .btn{
+            font-size: 6px; 
+        }
+            
+    .place-of-work-wrapper{
+        
+            display: flex;
+            flex-flow: column;
+        
+    }
+    .stack-group{
+        flex-direction: column;
+    }
+    .form-group input{
+        width: 200px;
+    }
+    
+    .form-group textarea{
+        width: 200px;
+        height: 250px;
+    }
+
+}
+
+
+@media  screen and (min-width:480px) and (max-width:767px){
     
 header{
     height: 100vh;
@@ -430,7 +497,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* border: 5px solid red; */
+    
     height: 20px;
     flex-wrap: wrap; 
     width: 100vw;
@@ -488,7 +555,7 @@ header{
 }
 }
  
-@media screen and (min-width:666px)and(max-width:1003px){
+ @media screen and (min-width:768px)and(max-width:1023px){
 
     header{
         height: 100vh;
@@ -504,63 +571,65 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* border: 5px solid red; */
-     height: 20px;
+    border: 5px solid red; 
+      height: 20px;
     flex-wrap: wrap; 
     width: 100vw;
-    
-}  
+ }
 
 
+ 
         .logo{
             font-size: 20px;
             margin-left: 20px;
             border: 5px solid red;
-        }
+        } 
         .nav-link{
             font-size: 20px;
         }
-        
+         
         .hero-wrapper{
             
                 flex-direction: column;
         margin-top: 200px;
             
-        }
+        } 
         .profile-image{
             width: 60px;
             height: 60px;
             border-radius: 50%;
             margin-top: -60px;
         }
-        
-        .full-name{
+         */
+        full-name{
             font-size: 20px;
             margin: 5px 0;
         }
-    
+     
         .brief{
             font-size: 20px;
-        }
+        } 
     
-        .btn{
+         .btn{
             font-size: 6px; 
-        }
+        } 
             
     .place-of-work-wrapper{
         
             display: flex;
             
         
-    }
-    .stack-group{
+    } 
+    .stack-section{
         display: flex;
         flex-direction: column;
-        /* border: 5px solid red; */
-    }
+         
+    } 
   .place-of-work-wrapper{
-      display: flex;
-      flex-direction: column;
+    
+        display: flex;
+        flex-flow: column;
+    
   }  
 
-}
+ }
