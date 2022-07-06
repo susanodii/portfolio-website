@@ -13,6 +13,7 @@ html{
 body{
     overflow-x: hidden;
 }
+
 /* HEADER SECTION */
 .index-header{
     background-image: url("https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1178&q=80 ");
@@ -203,6 +204,7 @@ main{
      flex-wrap: wrap;
      gap: 100px;
      margin: 2rem;
+     transition: 1s ease-in-out;
      
  }
 
@@ -345,6 +347,31 @@ main{
 }
 
 
+
+/* FUN SECTION */
+#catch-fun{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.funImages{
+    width: 500px;
+    height: 500px;
+}
+
+#fun-moment {
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-rows: masonry;
+    margin: auto;
+}
+      
+
+
+
+
+
+
 /* WORK WITH ME SECTION */
 
 .form-section form{
@@ -386,6 +413,7 @@ main{
     cursor: pointer;
     border-radius: 26px;
 } */
+
 
 
 /* SOCIAL MEDIA */
@@ -493,9 +521,9 @@ main{
 .nav-heardaer{
     background-color: #000;
 }
-.abt-nav-link{
-    co
-}
+/* .abt-nav-link{
+    c
+} */
 #about-me-container{
     height: 100vh;
     overflow: hidden;
