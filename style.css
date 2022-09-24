@@ -772,6 +772,188 @@ flex-direction: column;
 
 }
 
+@media(min-width:601px) and (max-width:768px){
+    .index-header{
+        background-size: contain;
+background-repeat: no-repeat;
+background-position: 50%;
+    }
+    .index-header{
+        height:70vh ;
+        
+    }
+    .profile-image{
+        margin-top: 11rem;
+    }
+
+    .full-name{
+        margin-top: 40px;
+    }
+
+    
+      .places-of-work{
+        width: 100%;
+        margin-bottom: -3rem;
+      }
+    .places-of-work
+    .at-tiidelab{
+        width: 100%;
+        font-size: 2rem;
+        
+          
+    }
+
+    .tiidelab-explain{
+        width: 100%;
+font-size: 1.5rem;
+margin-top: 1.5rem;
+    }
+
+    .stack-section{
+        width: 100%;
+    }
+    .skill-set{
+        flex-direction: column;
+gap: 1.5rem;
+    }
+
+    .git-collaborate{
+        font-size: 1.5rem;
+    }
+    .skills-box{
+        width: 500px;
+    }
+
+    .about-section{
+        width: 100%;
+    }
+    .about-me-susan{
+        width: 100%;
+flex-direction: column-reverse;
+    }
+    .about-me-details{
+        font-size: 1.5rem;
+    }
+    .abtImage-of-susan{
+        height: auto;
+    }
+    .project-card-wrapper{
+        width: 100%;
+flex-direction: column;
+    }
+    #first-project{
+
+        width: 100%;
+    }
+    
+    #second-project{
+
+        width: 100%;
+    }
+    .project-brief{
+        font-size: 1.5rem;
+    }
+    .project-links svg{
+        width: 30px;
+height: 30px;
+    }
+    .form-group input{
+        width: 400px;
+    }
+    .form-group textarea{
+        width: 400px;
+    }
+    .btn{
+        margin-bottom: -5rem;
+    }
+
+}
 
 
+@media(min-width:769px) and (max-width:1200px){
+
+    .profile-image{
+        margin-top: 22rem;
+        
+    }
+
+    .places-of-work{
+        width: 100%;
+        margin-bottom: -3rem;
+      }
+    .places-of-work
+    .at-tiidelab{
+        width: 100%;
+        font-size: 2rem;
+        
+          
+    }
+
+    .tiidelab-explain{
+        width: 100%;
+font-size: 1.5rem;
+margin-top: 1.5rem;
+    }
+
+
+    .stack-section{
+        width: 100%;
+    }
+    .skill-set{
+        flex-direction: column;
+gap: 1.5rem;
+    }
+
+    .git-collaborate{
+        font-size: 1.5rem;
+    }
+    .skills-box{
+        width: 700px;
+    }
+    .about-section{
+        width: 100%;
+    }
+    .about-me-susan{
+        width: 100%;
+flex-direction: column-reverse;
+    }
+    .about-me-details{
+        font-size: 1.5rem;
+    }
+    .abtImage-of-susan{
+        height: auto;
+    }
+    .project-card-wrapper{
+        width: 100%;
+flex-direction: column;
+font-size: 1.5rem;
+    }
+    #first-project{
+
+        width: 100%;
+    }
+    
+    #second-project{
+
+        width: 100%;
+    }
+    .project-brief{
+        font-size: 1.5rem;
+    }
+   
+
+    .project-links svg{
+        width: 30px;
+height: 30px;
+    }
+    .form-group input{
+        width: 400px;
+    }
+    .form-group textarea{
+        width: 400px;
+    }
+    .btn{
+        margin-bottom: -5rem;
+    }
+}
 
