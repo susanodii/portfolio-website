@@ -691,409 +691,87 @@ width:100%;
 }
 
 
-
-
-
-
-@media  screen and (max-width:500px){
-   
-   
-    .hamburger{
-        display: block;
-    }
-
-    .hamburger.active .bar:nth-child(2){
-        opacity: 0;
-    }
-    .hamburger.active .bar:nth-child(1){
-        transform:translateY(8px) rotate(45deg);
-    }
-    .hamburger.active .bar:nth-child(3){
-
-        transform:translateY(-8px) rotate(-45deg);
-    }
-   
-     .nav-menu{
-        position:fixed;
-        left:-100%;
-        top:80px;
-        gap:0;
-        flex-direction: column;
-        background-color: black;
+@media(max-width:600px){
+    .section h2{
         width: 100%;
-        text-align: center;
-        transition: 0.3s;
-        padding-bottom: 20px;
-        height: 30vh;
+        font-size: 20px; 
     }
-    .nav-menu.active{
-        left: 0;
+    .index-header{
+        background-size: contain;
+background-repeat: no-repeat;
+background-position: 50%;
     }
-
-    .subTopic-about-me.active{
-        padding-top: 300px;
-    }
-    
-    header{
-        height: 100vh;
-    }
-    .header-content-wrapper{
-        
-            flex-direction: column;
-            padding: 1rem;
-            
-        
+    .index-header{
+        height:70vh ;
     }
 
-.nav-links-wrapper .nav-link{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        /* border: 5px solid red; */
-        height: 20px;
-        flex-wrap: wrap; 
-        width: 100vw;
-        
+    .hero-wrapper{
+        margin-top: 95px;
     }
-        .logo{
-            font-size: 15px;
-        }
-        .nav-link{
-            font-size: 15px;
-        }
-        
-        .hero-wrapper{
-            
-                flex-direction: column;
-        margin-top: 200px;
-            
-        }
-        .profile-image{
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            margin-top: -60px;
-        }
-        
-        .full-name{
-            font-size: 20px;
-            margin: 5px 0;
-        }
-    
-        .brief{
-            font-size: 20px;
-        }
-    
-        .btn{
-            font-size: 6px; 
-        }
-            
-    .place-of-work-wrapper{
-        
-            display: flex;
-            flex-flow: column;
-        
+
+    .full-name{
+        margin-top: 40px;
     }
-    .stack-group{
+    .place-of-work-section{
+        width: 100%;
+    }
+    .places-of-work {
+        width: 100%;
+      }
+      .places-of-work
+    .at-tiidelab{
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .tiidelab-explain{
+        width: 100%;
+font-size: 1rem;
+margin-top: 1.5rem;
+    }
+    .skill-set{
         flex-direction: column;
+gap: 1.5rem;
+    }
+
+    .about-section{
+        width: 100%;
+    }
+    .about-me-susan{
+        width: 100%;
+flex-direction: column-reverse;
+    }
+    .about-me-details{
+        font-size: 1rem;
+    }
+    .abtImage-of-susan{
+        height: auto;
+    }
+    .project-card-wrapper{
+        width: 100%;
+flex-direction: column;
+    }
+    #first-project{
+
+        width: 100%;
+    }
+    
+    #second-project{
+
+        width: 100%;
     }
     .form-group input{
-        width: 200px;
+        width: 350px;
     }
-    
     .form-group textarea{
-        width: 200px;
-        height: 250px;
+        width: 350px;
+    }
+    .btn{
+        margin-bottom: -5rem;
     }
 
 }
 
 
 
-/* HAMBUGER CSS CODE */
-  
-    /* .hamburger {
-        
-        position: fixed;
-        z-index: 100;
-        top: 1rem;
-        right: 1rem;
-        padding: 4px;
-        border: black solid 1px;
-        background: white;
-        cursor: pointer;
-      }
 
-      .closeIcon {
-        display: none;
-      }
-
-      .menu {
-        position: fixed;
-        transform: translateY(-100%);
-        transition: transform 0.2s;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 99;
-        background: black;
-        color: white;
-        list-style: none;
-        padding-top: 4rem;
-      }
-
-      .showMenu {
-        transform: translateY(0);
-      }
-       */
-
-
-
- 
- @media  (max-width:500px){
-
-.index-header{
-height: 100%;
-}
-.header-overlay{
-    height: 30%;
-    width: 100%;
-}
- .nav-links-wrapper .nav-link{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    /* border: 5px solid red;  */
-      height: 20px;
-    flex-wrap: wrap; 
-    width: 100%;
- }
-
-
- 
-        .logo{
-            font-size: 20px;
-            margin-left: 20px;
-            /* border: 5px solid red; */
-        } 
-        .nav-link{
-            font-size: 20px;
-        }
-         
-        .hero-wrapper{
-            
-                /* flex-direction: column; */
-        margin-top: 120px;
-            
-        } 
-        .profile-image{
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            margin-top: -60px;
-        }
-         */
-        full-name{
-            font-size: 20px;
-            margin: 5px 0;
-        }
-     
-        .brief{
-            font-size: 20px;
-        } 
-    
-         .btn{
-            font-size: 6px; 
-        } 
-            
-    .place-of-work-wrapper{
-        
-            display: flex;
-            
-        
-    } 
-    .stack-section{
-        display: flex;
-        flex-direction: column;
-         
-    } 
-  .place-of-work-wrapper{
-    
-        display: flex;
-        flex-flow: column;
-    
-  } 
-  
-  
-  /* ABOUT ME */
-  
-  .about-me-susan{
-    flex-direction: column; 
-padding: 0;
-gap: 2em;
-  }
-
-  .section about-section{
-    width: 100%;
-  }
-
-  .abtImage-of-susan{
-    max-width: 100%;
-    height: auto;
-  }
-   /* .funMoment-section{
-    width: 100%;
-    padding: 15px;
-   } */
-
-   h2#catch-fun{
-    width: 95%;
-    padding-left: 0;
-    text-align:center ;
-   }
-
-   .funImages{
-
-    width: 100%;
-    
-   }
-   #fun-moment{
-    margin: auto;
-    max-width: 100%;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-   }
-   .funMoment-section{
-    margin: auto;
-    padding: 35px;
-    max-width: 100%;
-   }
-
-   .nav-heardaer{
-    height: 100%;
-   }
-
-
-   /* PROJECT SECTION */
-   .project-card-wrapper{
-    /* border: 5px solid green; */
-width: 100%;
-height: 100%;
-margin: auto;
-   }
-   /* contact me section */
-   
-  #contact{
-    width: 100%;
-    padding: 0;
-  }
-   
-  .contact-me-container{
-    flex-direction: column;
-  }
-  .workWith-me-details{
-    font-size: 14px;
-  }
-  .input-row{
-    flex-direction: column;
-  }
-  
- }
-
-
- @media (min-width:501px) and (max-width:768px){
-
-    .index-header{
-        width: 100%;
-    }
-
-    /* .header-overlay{
-        height: 30%;
-        width: 100%;
-    } */
-     /* .nav-links-wrapper .nav-link{
-        display: flex;
-        flex-direction: row;
-        justify-content: center; */
-        /* border: 5px solid red;  */
-          /* height: 20px;
-        flex-wrap: wrap; 
-        width: 100%;
-     } */
-
-
-    span.place-of-work-pill{
-        display:block;
-        width: 100%;
-        border: 2px solid white;
-
-    }
-
-/* PROJECT SECTION */
-
-  .project-card img{
-    height: 350px;
-    width: auto;
-  }
- 
-  #first-project{
-width:450px;
-height: 500px;
-margin: auto;
-  }
-  #fisrtProject-img{
-    width: 400px;
-  }
-  .card-content{
-    padding: 2px 50px;
-  }
-  .project-links{
-    padding: 2px 50px;
-  }
-
-     /* contact me section */
-   
-  #contact{
-    width: 100%;
-  }
-   
-  .contact-me-container{
-    flex-direction: column;
-  }
-  .input-row{
-    flex-direction: column;
-  }
- }
-
-
- @media (min-width:769px) and (max-width:1200px){
- /* contact me section */
-   
- #contact{
-    width: 100%;
-  }
-   
-  .contact-me-container{
-    flex-direction: column;
-  }
-  .input-row{
-    flex-direction: column;
-  }
-
-
-  /* LANDING PAGE */
-  .place-of-work-pill{
-    display: block;
-  }
-
-  /* ABOUT PAGE */
-  .about-me-susan{
-    flex-direction: column;
-    padding:0;
-  }
-
-  .abtImage-of-susan{
-    max-width: 100%;
-    
-  }
- }
