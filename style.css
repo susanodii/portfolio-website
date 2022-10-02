@@ -40,6 +40,7 @@ body{
         justify-content: space-between;
         align-items: center;
         padding: 2rem 4rem;
+        /* border: 2px solid blue; */
     }
 
 
@@ -61,10 +62,7 @@ body{
     color: #f9320a;
   }
 
-   .hamburger{
-    display: none;
-  }
-   
+  
   .hero-wrapper{
       position: relative;
        z-index: 1; 
@@ -72,6 +70,7 @@ body{
       flex-direction:column ;
       align-items: center;
       margin-top: 70px;
+      
 
   }
 
@@ -80,19 +79,30 @@ body{
 
   /* hambuger */
 
-  .hamburger{
-    display: none; 
-    cursor: pointer;
+.hambuger{
+background: white;
+border: 1px solid black;
+z-index: 100;
+position: fixed;
+/* top: 1.5rem; */
+right: 1rem;
+cursor: pointer;
+padding: 5px;
+display: none;
 }
-.bar{
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition:all 0.3s ease-in-out;
-    transition:all 0.3s ease-in-out;
-    background-color:white;
+  i.fa{
+font-size: 2rem;
+  }
+.fa-window-close{
+    display: none;
+} 
+.showMenu{
+    display: none;
 }
+
+/* .fa-bars{
+    color: blue;
+} */
 /* ------------------------------------------------------ */
 
 
@@ -692,6 +702,44 @@ width:100%;
 
 
 @media(max-width:600px){
+    .header-content-wrapper{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+         position: fixed;  
+        top: 1rem;
+       /* margin-bottom: 5rem; */
+       
+        /* border: 2px solid pink; */
+    }
+
+
+    /* .place-of-work-section{
+        width: 100%;
+        margin-top: 20rem;
+    } */
+    .nav-menu{
+/* border: 2px solid yellow; */
+display: flex;
+flex-direction: column;
+transform: translateY(-130%); 
+transition: 0.3s;
+    }
+    .showMenu {
+        transform: translateY(0);
+      }
+    
+    /* .profile-image{
+        
+        margin-top: 25rem; 
+    } */
+
+
+    .hambuger{
+        display: block;
+        top: 3rem;
+        cursor: pointer;
+    }
     .section h2{
         width: 100%;
         font-size: 20px; 
@@ -714,6 +762,7 @@ background-position: 50%;
     }
     .place-of-work-section{
         width: 100%;
+        /* margin-top: 20rem; */
     }
     .places-of-work {
         width: 100%;
@@ -784,6 +833,7 @@ background-position: 50%;
     }
     .profile-image{
         margin-top: 11rem;
+        /* margin-top: 20rem; */
     }
 
     .full-name{
@@ -806,7 +856,7 @@ background-position: 50%;
     .tiidelab-explain{
         width: 100%;
 font-size: 1.5rem;
-margin-top: 1.5rem;
+margin-top: 1.5rem;                            
     }
 
     .stack-section{
